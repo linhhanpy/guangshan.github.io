@@ -269,6 +269,7 @@
 
         function showContent(project) {
             const welcomeContent = document.getElementById('welcome-content');
+            const project0Content = document.getElementById('project0-content');
             const project1Content = document.getElementById('project1-content');
             const project2Content = document.getElementById('project2-content');
             const plainContent = document.getElementById('plain-content');
@@ -282,6 +283,8 @@
                 welcomeContent.style.display = 'block';
             } else if (project === 'plain') {
                 plainContent.style.display = 'block';
+            } else if (project === 'project0') {
+                project0Content.style.display = 'block';
             } else if (project === 'project1') {
                 project1Content.style.display = 'block';
             } else if (project === 'project2') {
